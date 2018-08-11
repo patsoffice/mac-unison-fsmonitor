@@ -20,7 +20,7 @@ before_script:
   - go get -u github.com/golang/lint/golint
 
 script:
-  - go test -v -race -coverprofile=coverage.txt -covermode=atomic
+  - go test -v -race -coverprofile=coverage.txt -covermode=atomic ./...
 
 after_script:
   - test -z "$(gofmt -s -l -w . | tee /dev/stderr)"
