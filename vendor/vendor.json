@@ -1,0 +1,13 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "xX//krtGgN0I1hxToLTIJlu11g8=",
+			"path": "github.com/fsnotify/fsevents",
+			"revision": "ed9a50f8badcd11817e4fa3044b6765bb54219db",
+			"revisionTime": "2018-02-23T06:02:18Z"
+		}
+	],
+	"rootPath": "github.com/patsoffice/mac-unison-fsmonitor"
+}
